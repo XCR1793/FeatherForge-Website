@@ -6,7 +6,7 @@ listener = function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/html'});
   
    // Send the response body as "Hello World"
-   response.end('<h2 style="text-align: center;">OwO</h2>');
+   response.end('<h2 style="text-align: center;">Testing</h2>');
 };
 
 server = http.createServer(listener);
