@@ -1,5 +1,6 @@
-# Libre Office Calc (Temporary File)
+# Libre Office (Temporary File)
 *.ods#
+*.odt#
 
 # Draw.IO Cache File
 *.bkp
