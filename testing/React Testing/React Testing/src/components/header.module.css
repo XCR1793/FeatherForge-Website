@@ -1,13 +1,76 @@
+/* .header{
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+.logo{
+  left: 0;
+  max-width: 300px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover{
+  filter: drop-shadow(0 0 0.25em #ffffffaa); 
+}
+
+.featherforge{
+  display: flex;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.nav{
+  align-items: flex-end;
+} */
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.logoLink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    scale: 0.5;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  
+  max-width: 150px; /* Adjust the size as needed */
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 0.25em #ffffffaa); 
+}
+
+.featherforge {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: color 200ms;
+}
+
+.nav ul li a:hover {
+  color: #007bff;
+}
