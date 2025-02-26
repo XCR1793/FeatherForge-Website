@@ -42,8 +42,12 @@ function Header(){
                 </div>
                 <nav className={styles.nav}>
                     <ul>
-                        <li>
+                        <li className={styles.dropdown}>
                             <a href="#Store">Store</a>
+                            <div className={styles.dropdownContent}>
+                                <a href="#Products">Products</a>
+                                <a href="#Commissions">Commissions</a>
+                            </div>
                         </li>
                         <li>
                             <a href="#Contacts">Contacts</a>
