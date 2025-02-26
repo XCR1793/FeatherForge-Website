@@ -34,6 +34,12 @@ function Header(){
     return(
         <>
             <header className={styles.header}>
+                <div className={styles.logoContainer}>
+                    <a target="_blank" className={styles.logoLink}>
+                        <img src={Logo} className={styles.logo} alt="Logo"/>
+                    </a>
+                    <a href="#FeatherForge" className={styles.featherforge}>Feather Forge</a>
+                </div>
                 <nav className={styles.nav}>
                     <ul>
                         <li>
@@ -47,10 +53,6 @@ function Header(){
                         </li>
                     </ul>
                 </nav>
-                <a target="_blank" className={styles.logoLink}>
-                    <img src={Logo} className={styles.logo} alt="Logo"/>
-                </a>
-                <a href="#FeatherForge" className={styles.featherforge}>Feather Forge</a>
             </header>
         </>
     )
