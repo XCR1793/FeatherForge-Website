@@ -4,8 +4,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@keyframes dropIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,32 +27,38 @@
   font-family: 'ADLaM', sans-serif;
 }
 
-.nav ul{
+.logoContainer {
+  animation: dropIn 0.4s ease-out forwards;
+}
+
+/* Only apply animation to nav items */
+.nav {
+  opacity: 0;
+  animation: dropIn 0.2s ease-out forwards;
+  animation-delay: 0.1s; /* Delay for entire nav */
+}
+
+.nav ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
   margin: 0;
 }
 
-.nav ul li a{
+.navItem {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: dropIn 0.4s ease-out forwards;
+}
+
+.navItem a {
   text-decoration: none;
   color: black;
   font-size: 1rem;
   padding: 0.5rem;
-  transition: color 200ms;
+  transition: color 100ms;
 }
 
-/* .nav ul li a:hover{
-  color: #007bff;
-} */
-
-/* Dropdown Menu */
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
-
-.dropdownContent{
+.dropdownContent {
   display: none;
   position: absolute;
   background-color: rgba(255, 255, 255, 0);
@@ -51,45 +67,45 @@
   z-index: 1;
 }
 
-.dropdown:hover .dropdownContent{
+.navItem:hover .dropdownContent {
   display: block;
 }
 
-.dropdownContent a{
+.dropdownContent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdownContent a:hover{
+.dropdownContent a:hover {
   background-color: #ff0000;
 }
 
-.logoContainer{
+/* Remove animation from logo and Feather Forge */
+.logoContainer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.logoLink{
+.logoLink {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.logo{
+.logo {
   max-width: 150px;
   transition: filter 300ms;
 }
 
-.logo:hover{
-  filter: drop-shadow(0 0 0.25em #ffffffaa); 
+.logo:hover {
+  filter: drop-shadow(0 0 0.25em #ffffffaa);
 }
 
-.featherforge{
+.featherforge {
   font-size: 2rem;
   padding-left: 1rem;
   color: White;
 }
-
