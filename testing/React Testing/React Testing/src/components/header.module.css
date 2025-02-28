@@ -1,29 +1,9 @@
-/* .header{
-  display: flex;
-  position: absolute;
-  top: 0;
+@font-face{
+  font-family: 'ADLaM'; /* The name you'll use to reference the font */
+  src: url('../assets/ADLaMDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.logo{
-  left: 0;
-  max-width: 300px;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover{
-  filter: drop-shadow(0 0 0.25em #ffffffaa); 
-}
-
-.featherforge{
-  display: flex;
-  font-size: 2rem;
-  padding: 1rem;
-}
-
-.nav{
-  align-items: flex-end;
-} */
 
 .header{
   display: flex;
@@ -32,13 +12,14 @@
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 0.5rem;
   box-sizing: border-box;
+  font-family: 'ADLaM', sans-serif;
 }
 
 .nav ul{
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
   margin: 0;
 }

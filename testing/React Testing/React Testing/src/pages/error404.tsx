@@ -1,0 +1,19 @@
+import React from 'react';
+import Header from '../components/header'; // Import the Header component
+import styles from './error404.module.css'; // Import the CSS Module
+
+const Error404: React.FC = () => {
+    return (
+        <>
+            <Header /> {/* Include the Header */}
+            <div className={styles.errorContainer}>
+                <div className={styles.errorMessage}>
+                    <h1 className={styles.errorTitle}>404 - Page Not Found</h1>
+                    <p className={styles.errorDescription}>Sorry, the page you're looking for doesn't exist.</p>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default Error404;
