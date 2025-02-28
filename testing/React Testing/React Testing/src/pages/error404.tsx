@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/header'; // Import the Header component
-import styles from './error404.module.css'; // Import the CSS Module
+import Header from '../components/header';
+import styles from './error404.module.css';
 
 const Error404: React.FC = () => {
     return (

@@ -1,28 +1,22 @@
-/* Error404.module.css */
-
-/* Center the entire error content vertically and horizontally */
 .errorContainer{
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
-    background-color: #00000000; /* Optional: add a background color */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #00000000;
 }
 
-/* Container for the error message */
 .errorMessage{
-    text-align: center; /* Ensure the text is centered */
+    text-align: center;
 }
 
-/* Style for the title (404 message) */
 .errorTitle{
     font-size: 3rem;
     font-weight: bold;
-    color: #d9534f; /* Red color for 404 */
+    color: #d9534f;
 }
 
-/* Style for the error description */
 .errorDescription{
     font-size: 1.5rem;
     color: #555;
