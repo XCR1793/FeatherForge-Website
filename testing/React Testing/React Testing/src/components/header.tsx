@@ -35,25 +35,25 @@ function Header(){
         <>
             <header className={styles.header}>
                 <div className={styles.logoContainer}>
-                    <a target="_blank" className={styles.logoLink}>
+                    <a href="/" className={styles.logoLink}>
                         <img src={Logo} className={styles.logo} alt="Logo"/>
                     </a>
-                    <a href="#FeatherForge" className={styles.featherforge}>Feather Forge</a>
+                    <a href="/" className={styles.featherforge} style={{ textDecoration: 'none', color: 'inherit' }}>Feather Forge</a>
                 </div>
                 <nav className={styles.nav}>
                     <ul>
                         <li className={styles.dropdown}>
-                            <a href="#Store">Store</a>
+                            <a style={{ textDecoration: 'none', color: 'inherit' }}>Store</a>
                             <div className={styles.dropdownContent}>
-                                <a href="#Products">Products</a>
-                                <a href="#Commissions">Commissions</a>
+                                <a href="#Products" style={{ textDecoration: 'none', color: 'inherit' }}>Products</a>
+                                <a href="#Commissions" style={{ textDecoration: 'none', color: 'inherit' }}>Commissions</a>
                             </div>
                         </li>
                         <li>
-                            <a href="#Contacts">Contacts</a>
+                            <a href="#Contacts" style={{ textDecoration: 'none', color: 'inherit' }}>Contacts</a>
                         </li>
                         <li>
-                            <a href="#TOS">TOS</a>
+                            <a href="#TOS" style={{ textDecoration: 'none', color: 'inherit' }}>TOS</a>
                         </li>
                     </ul>
                 </nav>
