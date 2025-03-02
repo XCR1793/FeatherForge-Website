@@ -7,11 +7,10 @@
 - If you are unable to pay within the designated time, contact me for a payment extension.
 - Full payment is required in order for me to ship the product.
 - Maximum of 14 days (before extension) of when the full payment should be completed before it is shipped.
-- Although we accept many different payment methods, the methods accepted at any given time is outlined 
 ## Commissions & Custom Orders
 - You must be 18+ to commission me due to costs and liability.
 - Commission slots are limited and are opened periodically.
-- We reserve the right to decline commissions for any reason.
+- We reserve the right to decline commissions/products to anyone for any reason.
 - Major changes after work begins may incur additional costs.
 - Completion times vary depending on project complexity and workload.
 ## Cancellations & Refund
@@ -26,10 +25,11 @@
     - If we cancel for any reason, a full refund (including deposit) will be issued.
 ## Shipping
 - Once shipped, we are not responsible for delays, loss, or damages caused by the postal service.
+- As we are australian based, shipping times may vary for international shipping.
 ## IP & Usage Rights
 - User-Owned Designs: If you provide a custom design for a commission (such as artwork, logos, or blueprints), you retain ownership of the design. We do not claim any rights to your intellectual property beyond what is necessary to complete the commission (e.g: we own the rights to the circuit board design if we designed it).
 - Derivative Works & Modifications: You are free to modify or customize our work for personal use. However, public redistribution of modified versions (e.g: 3D scans, schematics, or software forks) must comply with applicable open-source licenses.
-- Reselling & Redistribution: You may resell, gift, or transfer ownership of a commissioned item.
+- Reselling & Redistribution: You may resell, gift, or transfer ownership; of a commissioned item.
 - Attribution & Promotion: We reserve the right to publicly share images we create of commissioned work for promotional purposes (e.g. social media, portfolio, or advertising). If you prefer to keep a project private, please inform us before the commission begins. This option cannot be taken back after the fact, as if images/videos/etc we take of commissioned items appear on promotional videos or other media, it wont be editable after release.
 - If you change your mind from public to private for the attributions & promotion, we wont retract existing works, however we wont further use it for future promotions.
 ## Communication
@@ -44,7 +44,7 @@
 - Hardware is provided “as is” without warranties unless sold by us. The designs and calculations are open-sourced and under the GNU license, we waive liability of the usage, implementation and deployment of our designs from our repositories. Construct with caution in mind.
 - We are not responsible for injuries, damages, malfunctions, or other issues resulting from the construction, assembly or use of our repositories, including but not limited to hardware, circuits or software. Use at your own risk.
 ## Changes to TOS
-- The TOS applied to the product is the latest TOS at the time of Purchase.
+- The TOS applied to the product is the latest TOS at the time of Purchase/Commission.
 ## Warranty & Repair
 - 2 Years manufacturers warranty applies to the product upon the purchase or final payment of an item.
 - Cover
