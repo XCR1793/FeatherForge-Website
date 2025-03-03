@@ -32,9 +32,8 @@
 - Reselling & Redistribution: You may resell, gift, or transfer ownership; of a commissioned item.
 - Attribution & Promotion: We reserve the right to publicly share images we create of commissioned work for promotional purposes (e.g. social media, portfolio, or advertising). If you prefer to keep a project private, please inform us before the commission begins. This option cannot be taken back after the fact, as if images/videos/etc we take of commissioned items appear on promotional videos or other media, it wont be editable after release.
 - If you change your mind from public to private for the attributions & promotion, we wont retract existing works, however we wont further use it for future promotions.
-- If you use any of our designs / works (e.g: hardware, software, electronics, etc), you must give credit back to us by stating the design is not owned by you. We do not however, claim any right to the modifications you make.
 ## Communication
-- Due to tight scheduling, response times may vary however should not exceed a week. Our availability status will be visible on our discord server and twitter. (Our prefered method of communication is through our discord server.)
+- Due to tight scheduling, response times may vary however should not exceed a week. My availability status will be visible on my discord server and twitter.
 - Harassment, threats, or rude behavior will not be tolerated.
 - We reserve the right to refuse service to anyone who violates this policy.
 - We will update you on the status either automatically or upon request as soon as possible.
@@ -44,8 +43,6 @@
 - Embedded and other circuits are provided “as is” without warranties unless sold by us. The designs and calculations are open-sourced and under the GNU license, we waive liability of the usage, implementation and deployment of our designs from our repositories. Construct with caution in mind.
 - Hardware is provided “as is” without warranties unless sold by us. The designs and calculations are open-sourced and under the GNU license, we waive liability of the usage, implementation and deployment of our designs from our repositories. Construct with caution in mind.
 - We are not responsible for injuries, damages, malfunctions, or other issues resulting from the construction, assembly or use of our repositories, including but not limited to hardware, circuits or software. Use at your own risk.
-- Although the commissioners age is stated in this TOS, we are not responsible for deception, fraud or ignorance of this fact. We are not responsible for any damages or financial misjudgements resulting from the direct monetary payment of our commissions.
-- Purchasing or receiving from unaffiliated or unauthorised distributors are not included within our liability. We waive any liability for quality and safety from any and all sources using our designs that do not come directly from us or officially affiliated sources (e.g: partners or verified distributors).
 ## Changes to TOS
 - The TOS applied to the product is the latest TOS at the time of Purchase/Commission.
 ## Warranty & Repair
@@ -54,7 +51,6 @@
     - Faults and damages occurring within the warranty period (manufacturing defects such as: components on a PCB that has not been properly soldered, or premature failing of an LED matrix via dead pixels).
 - Does not cover
     - Theft or lost
-    - Accidental damage (e.g: dropping it)
     - General wear and tear including scratches and abrasions
     - Damage during shipping
 - Voids Warranty
