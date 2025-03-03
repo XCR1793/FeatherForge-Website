@@ -1,16 +1,16 @@
 # TOS PreRelease
 ## Orders & Payment
-- Orders and commissions are produced in batches to optimize fabrication, however it is still a first come first serve basis. Unless otherwise.
+- Orders and commissions are produced in batches to optimize fabrication, however it is still a first come first serve basis unless specified at the time via communication with the client or the listing.
 - Half payment up front to begin production and half upon completion unless agreed otherwise is required for commissions and large custom works.
-- Custom works may require non-refundable deposits if specified.
+- Custom works may require non-refundable deposits if specified by the commission type or the commission listing.
 - Failure to complete payment may result in order cancellation. Failure to pay during construction or near the end of development will result in an orphaned commission, which will be sold to recoup manufacturing losses.
 - If you are unable to pay within the designated time, contact me for a payment extension.
-- Full payment is required in order for me to ship the product.
-- Maximum of 14 days (before extension) of when the full payment should be completed before it is shipped.
+- Full payment is required in order for me to ship the commission / order.
+- Maximum of 14 days (before extension is applied) of when the full payment should be completed before it is shipped. 
 ## Commissions & Custom Orders
 - You must be 18+ to commission me due to costs and liability.
 - Commission slots are limited and are opened periodically.
-- We reserve the right to decline commissions/products to anyone for any reason.
+- We reserve the right to decline commissions / orders to anyone for any reason.
 - Major changes after work begins may incur additional costs.
 - Completion times vary depending on project complexity and workload.
 ## Cancellations & Refund
@@ -38,6 +38,7 @@
 - Harassment, threats, or rude behavior will not be tolerated.
 - We reserve the right to refuse service to anyone who violates this policy.
 - We will update you on the status either automatically or upon request as soon as possible.
+- If you find multiple instances of similar listings or contradicting information, the latest one will always apply unless it has been locked (such as the TOS applying upon purchase).
 ## Liability
 - We are not responsible for injuries damages, or malfunctions caused by improper use (e.g: operation outside of testing conditions and parameters resulting in a short due to water leakage).
 - Software is provided “as is” without warranties of any kind, as this software is open-sourced and under the GNU license, we waive liability of the usage, implementation and deployment of our code base.
@@ -46,6 +47,7 @@
 - We are not responsible for injuries, damages, malfunctions, or other issues resulting from the construction, assembly or use of our repositories, including but not limited to hardware, circuits or software. Use at your own risk.
 - Although the commissioners age is stated in this TOS, we are not responsible for deception, fraud or ignorance of this fact. We are not responsible for any damages or financial misjudgements resulting from the direct monetary payment of our commissions.
 - Purchasing or receiving from unaffiliated or unauthorised distributors are not included within our liability. We waive any liability for quality and safety from any and all sources using our designs that do not come directly from us or officially affiliated sources (e.g: partners or verified distributors).
+- By purchasing or commissioning a product, you acknowledge and accept the associated risks of using the products or designs outlined by the product itself, the TOS, the product description and risk assessment.
 ## Changes to TOS
 - The TOS applied to the product is the latest TOS at the time of Purchase/Commission.
 ## Warranty & Repair
@@ -61,3 +63,10 @@
     - Unregistered user modifications
     - Intentional damage
     - Item being outside of tested parameters / what its rated for (e.g: waterproofing)
+## Privacy Policy
+
+
+## NOTES (DO NOT INCLUDE THIS IN RELEASE)
+- Things we track
+  - Country you reside (optimizing postage & stuff)
+  - Age range (usage optimization)
