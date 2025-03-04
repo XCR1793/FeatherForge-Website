@@ -64,9 +64,11 @@
     - Intentional damage
     - Item being outside of tested parameters / what its rated for (e.g: waterproofing)
 ## Privacy Policy
-
-
-## NOTES (DO NOT INCLUDE THIS IN RELEASE)
-- Things we track
-  - Country you reside (optimizing postage & stuff)
-  - Age range (usage optimization)
+- We anonymise any data we collect (personal data is irreversibly transformed in such a way that it can no longer be linked to a specific individual) and will be part of data pools rather than profiled to a particular person. The data itself is listed within a database with no name or any other identification other than the base information.
+- Data Collected
+    - All tickets and their associated data (such as warranty claims)
+        - Reason: identifying common damage methods and issues
+    - Design specifications (such as commission specifics)
+        - Reason: future proofing optimisations to improve later designs and releases
+    - Country you reside (country/region not your full actual address)
+        - Reason: local support such as language translations for guides or gps optimisation
