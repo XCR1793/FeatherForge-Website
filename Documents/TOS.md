@@ -49,7 +49,10 @@
 - Purchasing or receiving from unaffiliated or unauthorised distributors are not included within our liability. We waive any liability for quality and safety from any and all sources using our designs that do not come directly from us or officially affiliated sources (e.g: partners or verified distributors).
 - By purchasing or commissioning a product, you acknowledge and accept the associated risks of using the products or designs outlined by the product itself, the TOS, the product description and risk assessment.
 ## Changes to TOS
-- The TOS applied to the product is the latest TOS at the time of Purchase/Commission.
+- The Terms of Service (TOS) applicable to the product will be the most current version in effect at the time of Purchase or Commission.
+- By proceeding with the Purchase or Commission, you acknowledge and agree to be bound by the then-current TOS.
+- We reserve the right to modify, update, or change the TOS at any time without prior notice.
+- Any changes to the TOS will apply to subsequent purchases or commissions, but will not retroactively affect any prior agreements unless specified.
 ## Warranty & Repair
 - 2 Years manufacturers warranty applies to the product upon the purchase or final payment of an item.
 - Cover
@@ -65,6 +68,7 @@
     - Item being outside of tested parameters / what its rated for (e.g: waterproofing)
 ## Privacy Policy
 - We anonymise any data we collect (personal data is irreversibly transformed in such a way that it can no longer be linked to a specific individual) and will be part of data pools rather than profiled to a particular person. The data itself is listed within a database with no name or any other identification other than the base information.
+- This policy can be opted out at any moment before sending a commission due to the information being depersonalised and I cannot retract data that I dont know is the commissioners.
 - Data Collected
     - All tickets and their associated data (such as warranty claims)
         - Reason: identifying common damage methods and issues
