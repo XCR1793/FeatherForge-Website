@@ -1,4 +1,3 @@
-# TOS PreRelease
 ## Orders & Payment
 - Orders and commissions are produced in batches to optimize fabrication, however it is still a first come first serve basis. Unless otherwise.
 - Half payment up front to begin production and half upon completion unless agreed otherwise is required for commissions and large custom works.

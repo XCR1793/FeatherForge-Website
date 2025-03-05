@@ -1,0 +1,23 @@
+[
+    {
+        "SiteName": "Github",
+        "SiteLogo": "../assets/GithubLogo.svg",
+        "SiteLink": "github.com",
+        "UserName": "Userlogo",
+        "ProfilePic": "../assets/GithubProfile.png"
+    },
+    {
+        "SiteName": "Twitter",
+        "SiteLogo": "../assets/TwitterLogo.svg",
+        "SiteLink": "twitter.com",
+        "UserName": "Userlogo",
+        "ProfilePic": "../assets/TwitterProfile.png"
+    },
+    {
+        "SiteName": "Discord",
+        "SiteLogo": "../assets/DiscordLogo.svg",
+        "SiteLink": "Discord.com",
+        "UserName": "Userlogo",
+        "ProfilePic": "../assets/DiscordProfile.png"
+    }
+]

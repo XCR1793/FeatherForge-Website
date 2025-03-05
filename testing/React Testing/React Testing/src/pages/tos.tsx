@@ -1,67 +1,77 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import Header from '../components/header';
-import styles from './TOS.module.css'; // Import the CSS Module
+import styles from './tos.module.css'; // Import the CSS Module
+import gfm from 'remark-gfm';
 
-function TOS() {
-    const videoRef = useRef<HTMLVideoElement | null>(null);
-    const [scrollHeight, setScrollHeight] = useState<number>(0);
+const TOS: React.FC = () => {
+  const [markdownContent, setMarkdownContent] = useState<string>('');
 
-    useEffect(() => {
-        // Get the height of the page content (so the scroll can be used properly)
-        setScrollHeight(document.documentElement.scrollHeight - window.innerHeight);
-
-        // Update scroll height when window resizes
-        const handleResize = () => {
-            setScrollHeight(document.documentElement.scrollHeight - window.innerHeight);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        // Clean up on unmount
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    const handleScroll = () => {
-        if (videoRef.current) {
-            // Get scroll position and video duration
-            const scrollPosition = window.scrollY;
-            const videoDuration = videoRef.current.duration;
-
-            // Calculate the time to set in the video based on scroll
-            const playbackTime = (scrollPosition / scrollHeight) * videoDuration;
-
-            // Set video current time
-            videoRef.current.currentTime = playbackTime;
-        }
+  useEffect(() => {
+    // Fetch the TOS.md file
+    const fetchMarkdown = async () => {
+      try {
+        const response = await fetch('/TOS.md'); // Assuming TOS.md is in the public directory
+        const text = await response.text();
+        setMarkdownContent(text);
+      } catch (error) {
+        console.error('Error loading TOS.md:', error);
+      }
     };
 
-    useEffect(() => {
-        // Add the scroll event listener
-        window.addEventListener('scroll', handleScroll);
+    fetchMarkdown();
+  }, []);
 
-        // Clean up on unmount
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, [scrollHeight]);
+  const renderSections = (content: string) => {
+    const sections: { heading: string; content: string }[] = [];
+    let currentSection: string[] = [];
+    let currentHeading = '';
 
-    return (
-        <>
-            {/* Header stays fixed at the top of the viewport (screen) */}
-            <Header />
-            
-            {/* Main content container */}
-            <div className={styles.mainContainer}>
-                {/* The video stays fixed behind the header */}
-                <video
-                    ref={videoRef}
-                    src="https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4"
-                    className={styles.video}
-                    muted
-                    loop
-                    preload="auto"
-                />
-            </div>
-        </>
-    );
-}
+    // Split content by newline to process line by line
+    const lines = content.split('\n');
+    lines.forEach((line) => {
+      if (line.startsWith('##')) {
+        // If a subheading (##) is found, start a new section
+        if (currentSection.length > 0) {
+          // Don't repeat the heading in the content
+          sections.push({ heading: currentHeading, content: currentSection.join('\n') });
+        }
+        currentHeading = line.replace('##', '').trim(); // Update current heading, removing '##'
+        currentSection = []; // Start new section with an empty array
+      } else {
+        currentSection.push(line); // Add content under the current section
+      }
+    });
+
+    // Add the last section, if there's any content left
+    if (currentSection.length > 0) {
+      sections.push({ heading: currentHeading, content: currentSection.join('\n') });
+    }
+
+    return sections;
+  };
+
+  return (
+    <>
+        <Header />
+        <div className={styles.tosContainer}>
+          <div className={styles.tosContent}>
+            <h1 className={styles.tosTitle}>Terms of Service</h1>
+            {markdownContent ? (
+              renderSections(markdownContent).map((section, index) => (
+                <div key={index} className={styles.sectionBox}>
+                  <h2 className={styles.sectionHeading}>{section.heading}</h2>
+                  {/* Pass only the content (excluding the heading) to ReactMarkdown */}
+                  <ReactMarkdown remarkPlugins={[gfm]}>{section.content}</ReactMarkdown>
+                </div>
+              ))
+            ) : (
+              <p>Loading content...</p>
+            )}
+          </div>
+        </div>
+    </>
+  );
+};
 
 export default TOS;
