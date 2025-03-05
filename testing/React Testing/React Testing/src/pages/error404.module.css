@@ -1,23 +1,51 @@
-.errorContainer{
+@keyframes sway {
+    0% {transform: rotate(-2.5deg);}
+    50% {transform: rotate(2.5deg);}
+    100% {transform: rotate(-2.5deg);}
+}
+
+.errorContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: #00000000;
+    position: relative;
+    overflow: hidden;
 }
 
-.errorMessage{
+.errorContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/Image.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: -1; 
+}
+
+.errorMessage {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: sway 3s ease-in-out infinite alternate;
 }
 
-.errorTitle{
+.errorTitle {
     font-size: 3rem;
     font-weight: bold;
     color: #d9534f;
+    margin: 0;
 }
 
-.errorDescription{
+.errorDescription {
     font-size: 1.5rem;
     color: #555;
+    margin-top: 10px;
 }

@@ -65,6 +65,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 0.5rem;
 }
 
 .navItem:hover .dropdownContent {
@@ -79,7 +80,8 @@
 }
 
 .dropdownContent a:hover {
-  background-color: #ff0000;
+  border-radius: 0.5rem;
+  background-color: #ff990013;
 }
 
 /* Remove animation from logo and Feather Forge */

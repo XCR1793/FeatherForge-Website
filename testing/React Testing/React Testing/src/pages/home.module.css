@@ -1,3 +1,10 @@
+@font-face{
+  font-family: 'ADLaM';
+  src: url('../assets/ADLaMDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -9,13 +16,6 @@
   position: relative;
 }
 
-.title {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  z-index: 1;
-}
-
 .image {
   object-fit: cover;
   width: 100%;
@@ -23,5 +23,37 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1;
+}
+
+.projecttext {
+  position: absolute; /* Absolute positioning to place it in top-right corner */
+  top: 100px; /* Offset from the top */
+  right: 20px; /* Offset from the right */
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
+  padding: 10px 10px; /* Reduced padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  width: auto; /* Width will adjust to content */
+  max-width: 550px; /* Optional: set a max width */
+  z-index: 0; /* Ensure the content is above the image */
+  font-family: 'ADLaM', sans-serif;
+}
+
+.projecttitle {
+  color: rgb(255, 157, 0); /* Text color */
+  font-size: 32px; /* Title font size */
+  font-weight: bold; /* Bold title */
+  margin-bottom: 10px; /* Reduced space between title and description */
+  background-color: rgba(0, 0, 0, 0); /* Background for the title */
+  display: inline-block; /* Allows padding to be based on the content size */
+  padding: 0px 5px; /* Padding for the title */
+  border-radius: 8px; /* Rounded corners for the title */
+  margin-left: -8px; /* Add margin to the left to move title right */
+}
+
+.projectdesc {
+  color: rgb(194, 194, 194); /* Text color */
+  font-size: 16px; /* Adjust description text size */
+  line-height: 1.6; /* Space between lines of text */
+  padding-top: 0px; /* Reduced padding on top of the description */
 }
