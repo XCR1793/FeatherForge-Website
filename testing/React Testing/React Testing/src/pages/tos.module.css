@@ -1,35 +1,40 @@
-/* .mainContainer {
-    height: 150vh;
-    overflow: hidden;
+/* tos.module.css */
+.mainContainer {
+  min-height: 350vh;  /* Allow the content to grow as needed */
+  position: relative; /* Allows positioning of video */
+  overflow: auto; /* Allow scrolling of the content */
+  padding-top: 5vh; /* Space for the header */
 }
 
 .video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-} */
+  position: fixed; /* Video stays fixed while scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* The video will take up the entire viewport height */
+  object-fit: cover; /* Ensure video fills the screen */
+  z-index: -1; /* Video stays behind content */
+}
 
-
-/* tos.module.css */
 .tosContainer {
-    background-color: #f9f9f900;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensure content starts from the top */
+  align-items: center;
+  background-color: #f4f4f400;
+  width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 50px; /* Ensure there's space at the bottom of the page */
 }
 
 .tosContent {
   max-width: 800px;
   box-sizing: border-box;
+  padding-bottom: 50px; /* Extra padding to ensure content fits well */
 }
 
 .tosTitle {
+  color: #ffffff;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -37,9 +42,16 @@
 }
 
 .sectionBox {
-  background-color: #000000;
-  border: 2px solid #ffa60098;
+  background-color: #0000008c;
+  border: 2px solid #ffa600cb;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 15px;
+  color: white;
+}
+
+.sectionHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
