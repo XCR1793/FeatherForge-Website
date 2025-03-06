@@ -20,4 +20,37 @@
   width: 300px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-} 
+}
+
+.profilePic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.siteLogo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+a:hover {
+  color: #1da1f2; /* Adjust color based on the site's theme */
+}
