@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./contactTags.module.css";
 
 // Define TypeScript interface for contact data
@@ -13,32 +13,24 @@ interface Contact {
 // Use import.meta.glob to dynamically import images from the assets folder
 const imageImports = import.meta.glob('../assets/*.{svg,png,jpeg,jpg}', { eager: true });
 
-// Sample JSON data
-const contactData: Contact[] = [
-  {
-    SiteName: "Github",
-    SiteLogo: "GithubLogo.svg",
-    SiteLink: "https://github.com",
-    UserName: "Userlogo0",
-    ProfilePic: "GithubProfile.png"
-  },
-  {
-    SiteName: "Twitter",
-    SiteLogo: "TwitterLogo.svg",
-    SiteLink: "https://twitter.com",
-    UserName: "Userlogo1",
-    ProfilePic: "TwitterProfile.png"
-  },
-  {
-    SiteName: "Discord",
-    SiteLogo: "DiscordLogo.svg",
-    SiteLink: "https://discord.com",
-    UserName: "Userlogo2",
-    ProfilePic: "DiscordProfile.png"
-  }
-];
-
 const ContactTags: React.FC = () => {
+  const [contactData, setContactData] = useState<Contact[]>([]);
+
+  useEffect(() => {
+    // Import contact data from the JSON file
+    const fetchContactData = async () => {
+      try {
+        // Dynamically import the contacts.json file
+        const contactDataModule = await import('../config/contacts.json');
+        setContactData(contactDataModule.default);  // The data is the default export
+      } catch (error) {
+        console.error("Failed to load contact data:", error);
+      }
+    };
+
+    fetchContactData();
+  }, []);
+
   return (
     <div className={styles.container}>
       {contactData.map((contact, index) => {

@@ -1,23 +1,24 @@
 [
     {
-        "SiteName": "Github",
-        "SiteLogo": "../assets/GithubLogo.svg",
-        "SiteLink": "github.com",
-        "UserName": "Userlogo",
-        "ProfilePic": "../assets/GithubProfile.png"
+      "SiteName": "Github",
+      "SiteLogo": "GithubLogo.svg",
+      "SiteLink": "https://github.com",
+      "UserName": "Userlogo0",
+      "ProfilePic": "GithubProfile.png"
     },
     {
-        "SiteName": "Twitter",
-        "SiteLogo": "../assets/TwitterLogo.svg",
-        "SiteLink": "twitter.com",
-        "UserName": "Userlogo",
-        "ProfilePic": "../assets/TwitterProfile.png"
+      "SiteName": "Twitter",
+      "SiteLogo": "TwitterLogo.svg",
+      "SiteLink": "https://twitter.com",
+      "UserName": "Userlogo1",
+      "ProfilePic": "TwitterProfile.png"
     },
     {
-        "SiteName": "Discord",
-        "SiteLogo": "../assets/DiscordLogo.svg",
-        "SiteLink": "Discord.com",
-        "UserName": "Userlogo",
-        "ProfilePic": "../assets/DiscordProfile.png"
+      "SiteName": "Discord",
+      "SiteLogo": "DiscordLogo.svg",
+      "SiteLink": "https://discord.com",
+      "UserName": "Userlogo2",
+      "ProfilePic": "DiscordProfile.png"
     }
-]
+  ]
+  
