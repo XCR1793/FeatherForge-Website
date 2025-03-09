@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import Header from '../components/header';
 import styles from './tos.module.css'; // Import the CSS Module
 import gfm from 'remark-gfm';
-import Video from '../assets/MarkPunch.mp4';
+import Video from '../assets/Synth Companion Spinning.mp4';
 
 const TOS: React.FC = () => {
   const [markdownContent, setMarkdownContent] = useState<string>('');

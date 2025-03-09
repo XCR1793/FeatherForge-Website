@@ -25,7 +25,7 @@
     - If we cancel for any reason, a full refund (including deposit) will be issued.
 ## Shipping
 - Once shipped, we are not responsible for delays, loss, or damages caused by the postal service.
-- As we are australian based, shipping times may vary for international shipping.
+- As we are australian based, shipping times and cost may vary for international shipping.
 ## IP & Usage Rights
 - User-Owned Designs: If you provide a custom design for a commission (such as artwork, logos, or blueprints), you retain ownership of the design. We do not claim any rights to your intellectual property beyond what is necessary to complete the commission (e.g: we own the rights to the circuit board design if we designed it).
 - Derivative Works & Modifications: You are free to modify or customize our work for personal use. However, public redistribution of modified versions (e.g: 3D scans, schematics, or software forks) must comply with applicable open-source licenses.
@@ -48,6 +48,7 @@
 - Although the commissioners age is stated in this TOS, we are not responsible for deception, fraud or ignorance of this fact. We are not responsible for any damages or financial misjudgements resulting from the direct monetary payment of our commissions.
 - Purchasing or receiving from unaffiliated or unauthorised distributors are not included within our liability. We waive any liability for quality and safety from any and all sources using our designs that do not come directly from us or officially affiliated sources (e.g: partners or verified distributors).
 - By purchasing or commissioning a product, you acknowledge and accept the associated risks of using the products or designs outlined by the product itself, the TOS, the product description and risk assessment.
+- We are not liable from hardware construction and software modifications from affiliate sellers and partners. We are liable however, for hardware and software design that we provide to the affiliate sellers and partners. If construction issues occur, then contact the affiliated seller that you purchased the product from. If the design requires critique, go to the forums on our discord server (remember to be kind and constructive).
 ## Changes to TOS
 - The Terms of Service (TOS) applicable to the product will be the most current version in effect at the time of Purchase or Commission.
 - By proceeding with the Purchase or Commission, you acknowledge and agree to be bound by the then-current TOS.
@@ -68,7 +69,7 @@
     - Item being outside of tested parameters / what its rated for (e.g: waterproofing)
 ## Privacy Policy
 - We anonymise any data we collect (personal data is irreversibly transformed in such a way that it can no longer be linked to a specific individual) and will be part of data pools rather than profiled to a particular person. The data itself is listed within a database with no name or any other identification other than the base information.
-- This policy can be opted out at any moment before sending a commission due to the information being depersonalised and I cannot retract data that I dont know is the commissioners.
+- This policy can be opted out at any moment before sending a commission due to the information being depersonalised and we cannot retract data that we dont know is the commissioners.
 - Data Collected
     - All tickets and their associated data (such as warranty claims)
         - Reason: identifying common damage methods and issues
@@ -76,3 +77,10 @@
         - Reason: future proofing optimisations to improve later designs and releases
     - Country you reside (country/region not your full actual address)
         - Reason: local support such as language translations for guides or gps optimisation
+## Affiliate & Partner
+- Distribution rights of what is allowed and disallowed is written on the hardware and software license attached to every project. If there is no licenses, the default for software is GNU GPL V3 and the default for hardware is Cern OHL V2.
+- If you like to be an affiliate seller or a partner, you may contacts us through our contacts page on the website.
+- Affiliate partners are authorized to construct then distribute products and systems we release either publically or privately.
+- We reserve the right to terminate or modify any distribution or partnership arrangement at its sole discretion.
+- Affiliate partners are bound to a contract which is and will always be non locking and can be terminated by any party at any time.
+- Commissions/products from affiliate partners are bound to their warranty and liability process, and will not be covered by this TOS and our warranty policy.

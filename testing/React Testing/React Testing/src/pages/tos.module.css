@@ -3,7 +3,7 @@
   min-height: 350vh;  /* Allow the content to grow as needed */
   position: relative; /* Allows positioning of video */
   overflow: auto; /* Allow scrolling of the content */
-  padding-top: 5vh; /* Space for the header */
+  padding-top: 8vh; /* Space for the header */
 }
 
 .video {
@@ -23,14 +23,11 @@
   align-items: center;
   background-color: #f4f4f400;
   width: 100vw;
-  padding-top: 5vh;
-  padding-bottom: 50px; /* Ensure there's space at the bottom of the page */
 }
 
 .tosContent {
   max-width: 800px;
   box-sizing: border-box;
-  padding-bottom: 50px; /* Extra padding to ensure content fits well */
 }
 
 .tosTitle {
@@ -39,19 +36,21 @@
   font-weight: bold;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .sectionBox {
   background-color: #0000008c;
   border: 2px solid #ffa600cb;
-  padding: 10px;
+  padding: 20px;
   margin-top: 10px;
-  border-radius: 15px;
+  border-radius: 30px;
   color: white;
 }
 
 .sectionHeading {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  padding: 0;
+  margin: 0;
 }
