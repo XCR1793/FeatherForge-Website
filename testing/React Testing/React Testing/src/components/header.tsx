@@ -2,7 +2,12 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/Logo.svg';
 import styles from './header.module.css';
 
-function Header() {
+
+interface HeaderProps {
+    isFlex?: boolean;
+}
+
+function Header({ isFlex = false }: HeaderProps) {
   const navItems = [
     { name: 'Store', links: [{ name: 'Products', to: 'https://www.etsy.com/au/shop/FeatherForge3D' }, { name: 'Commissions', to: '/commissions' }] },
     { name: 'Contacts', to: '/contacts' },
@@ -18,7 +23,7 @@ function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={isFlex ? styles.headerForFlex : styles.header}>
       <div className={styles.logoContainer}>
         <Link to="/" className={styles.logoLink}>
           <img src={Logo} className={styles.logo} alt="Logo"/>
@@ -26,7 +31,7 @@ function Header() {
         <Link to="/" className={styles.featherforge} style={{ textDecoration: 'none', color: 'inherit' }}>Feather Forge</Link>
       </div>
       <nav className={styles.nav}>
-        <ul>
+        <ul className={styles.navUl}>
           {navItems.map((item, index) => (
             <li
               key={index}
@@ -35,7 +40,7 @@ function Header() {
             >
               {item.links ? (
                 <>
-                  <span>{item.name}</span>
+                  <span className={styles.dropdownSpan}>{item.name}</span>
                   <div className={styles.dropdownContent}>
                     {item.links.map((link, subIndex) => (
                       <div key={subIndex}>
