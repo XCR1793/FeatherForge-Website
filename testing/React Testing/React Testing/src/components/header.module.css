@@ -22,9 +22,19 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1rem 0.5rem;
+  padding: 1vh 1vh;
   box-sizing: border-box;
   font-family: 'ADLaM', sans-serif;
+}
+
+.headerForFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1vh 1vh;
+    box-sizing: border-box;
+    font-family: 'ADLaM', sans-serif;
 }
 
 .logoContainer {
@@ -40,9 +50,12 @@
 
 .nav ul {
   display: flex;
-  gap: 1.5rem;
   list-style: none;
   margin: 0;
+}
+
+.navUl {
+    padding: 0;
 }
 
 .navItem {
@@ -53,9 +66,13 @@
 .navItem a {
   text-decoration: none;
   color: black;
-  font-size: 1rem;
-  padding: 0.5rem;
+  font-size: 2vh;
+  padding: 1vh;
   transition: color 100ms;
+}
+
+.dropdownSpan {
+    font-size: 2vh;
 }
 
 .dropdownContent {
@@ -64,8 +81,8 @@
   background-color: rgba(255, 255, 255, 0);
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 0.5rem;
+  z-index: 1000;
+  border-radius: 1vh;
 }
 
 .navItem:hover .dropdownContent {
@@ -74,13 +91,13 @@
 
 .dropdownContent a {
   color: black;
-  padding: 12px 16px;
+  padding: 1vh 2vh;
   text-decoration: none;
   display: block;
 }
 
 .dropdownContent a:hover {
-  border-radius: 0.5rem;
+  border-radius: 1vh;
   background-color: #ff990013;
 }
 
@@ -98,7 +115,7 @@
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 15vh;
   transition: filter 300ms;
 }
 
@@ -107,7 +124,7 @@
 }
 
 .featherforge {
-  font-size: 2rem;
-  padding-left: 1rem;
+  font-size: 5vh;
+  padding-left: 2vh;
   color: White;
 }

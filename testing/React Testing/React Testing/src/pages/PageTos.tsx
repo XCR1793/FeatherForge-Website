@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Header from '../components/header';
-import styles from './tos.module.css'; // Import the CSS Module
+import styles from './PageTos.module.css'; // Import the CSS Module
 import gfm from 'remark-gfm';
 import Video from '../assets/Synth Companion Spinning.mp4';
 

@@ -1,4 +1,4 @@
-import Styles from './home.module.css';
+import Styles from './PageHome.module.css';
 import Header from '../components/header';
 
 const imageUrl = new URL('../assets/Home Image.png', import.meta.url).toString(); // Resolving image path

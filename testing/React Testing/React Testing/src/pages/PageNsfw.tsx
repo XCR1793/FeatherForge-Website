@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate
 import videoSrc from '../assets/MarkPunch.mp4'; // Import the video file
-import styles from './nsfw.module.css'; // Import the CSS module
+import styles from './PageNsfw.module.css'; // Import the CSS module
 
 const VideoPlayer: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
